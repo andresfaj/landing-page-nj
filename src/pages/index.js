@@ -1,5 +1,14 @@
+import { Link } from "gatsby"
 import React from "react"
+import "../styles/index.scss"
 
-export default function Home() {
-  return <div>Hello world!</div>
+const Home = () => {
+  return (
+    <div>
+      {" "}
+      <Link to="/gracias"> Gracias </Link>
+    </div>
+  )
 }
+
+export default Home
