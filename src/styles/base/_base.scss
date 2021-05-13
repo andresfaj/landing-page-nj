@@ -1,9 +1,19 @@
 * {
   margin: 0px; //Quita los bordes que el navegador trae por defecto
   box-sizing: border-box; //Ayuda a recalcular el width de un elemento restandole el padding/border para que no se salga del navegador, evita scroll horizontal
-  font-family: "Montserrat", sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 html {
+  height: 100vh;
+  width: 100vw;
   font-size: 62.5%; //1rem = 10px
+}
+
+.subtitle {
+  font-size: 1.5rem;
+}
+
+.underline {
+  text-decoration: underline;
 }

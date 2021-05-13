@@ -1,0 +1,14 @@
+.home {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.home__title {
+  color: $primary;
+  font-size: 4rem;
+  text-align: center;
+}
